@@ -3,13 +3,13 @@
 
 %====================
 % File:         cover_letter.tex
-% Editor:       https://github.com/TimmyChan 
+% Editor:       https://github.com/TimmyChan
 %               https://www.linkedin.com/in/timmy-l-chan/
 % Last Updated: Jan 7th, 2022
 %
 % Notes:        Created to serve as form letter for creation of many letters.
 %               All formatting is done in TLCcoverletter.sty and _header.tex
-%               No need to touch those files. 
+%               No need to touch those files.
 %               All actual content is in the sections/ folder.
 %====================
 
@@ -19,28 +19,25 @@
 %====================
 % CONTACT INFORMATION
 %====================
-\def\name{First Last} % Name Here
+\def\name{Sen Yang} % Name Here
 \signature{\name}
-\address{1234 Street Ave., \\
-Unit \#777 \\ 
-City, State \\
-00000}
-\def\phone{(xxx) xxx-xxxx}
-\def\email{email@email.com}
-\def\LinkedIn{timmy-l-chan} % linkedin.com/in/______
-\def\github{TimmyChan} % github username
-\def\role{Data Scientist} % JOB TITLE
+\address{Beijing, China}
+\def\phone{(+86) 13020058307}
+\def\email{sen.yang96@outlook.com}
+\def\LinkedIn{sen-yang-a20a02137} % linkedin.com/in/______
+\def\github{YoungForest} % github username
+\def\role{Software Development Engineer} % JOB TITLE
 
 %====================
 % Company Info
 %====================
-\def\hm{Jane Doe} % Hiring Manager Name, leave empty if unknown
-\def\position{Senior Data Scientist} % position
-\def\company{Big Data} % company
-\def\source{on LinkedIn} % where was the posting found, "I found ____ "
+\def\hm{} % Hiring Manager Name, leave empty if unknown
+\def\position{Back-End Software Engineer} % position
+\def\company{HENNGE} % company
+\def\source{on StackOverflow} % where was the posting found, "I found ____ "
 
 % FULL SENTENCES
-\def\companynews{I understand that \company\;was included in a "Best of Tech" list, and got a new influx of investor funding as a result.}
+\def\companynews{I understand that \company\;was a famous company in Japan and a leading cloud-based security provider.}
 
 %==================
 % Header file
@@ -52,7 +49,7 @@ City, State \\
 %==================
 
 \begin{document}
-\begin{letter}{\hm \\ Hiring Manager \\ Big Data, Inc. \\ Address line 1 \\ Address line 2  }
+\begin{letter}{\hm \\ Hiring Manager \\ Hennge, Inc.  }
 
 \opening{Dear \hm,}
 % Change \hm to "hiring manager" or equivalent in company if unknown
@@ -61,7 +58,7 @@ City, State \\
 \input{sections/opening}
 \input{sections/second}
 \input{sections/closing}
-\input{sections/signoff} 
+\input{sections/signoff}
 
 \closing{Sincerely,}
 \end{letter}
